@@ -65,7 +65,7 @@ header{
     width: 25vw;
 }
 #search-input{
-    position: absolute;
+    position: relative;
     background-color: #0000002f;
     border: none;
     width: inherit;
@@ -211,5 +211,6 @@ footer li {
         margin-left: 5px;
 
     }
+
 
 }
