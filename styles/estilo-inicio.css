@@ -1,0 +1,29 @@
+#search-input:focus + #search-deco{
+    color: rgba(255, 255, 255, 0.486);
+}
+#banner{
+    display: flex;
+    max-height: 26vmax;
+}
+#banner-img{
+    position: relative;
+    z-index: 0 !important;
+    width: 100%;
+    height: fit-content;
+    top: 0%;
+    transform: translateY(-10vmin);
+    object-fit: cover;
+}
+@media (max-width:900px) {
+    
+    #banner{
+        display: flex;
+        max-height: 50vh;
+    }
+    #banner-img{
+        width: 100vw;
+        height: 20rem;
+        top: 0%;
+        object-fit: cover;
+    }
+}

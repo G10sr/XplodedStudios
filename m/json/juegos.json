@@ -1,0 +1,411 @@
+{
+  "juegos": [
+    {
+      "id": 1,
+      "nombre": "Grand Theft Auto V",
+      "descripcion": "Mundo abierto lleno de acción, misiones criminales y modo online masivo.",
+      "imagen": "https://articles-img.sftcdn.net/t_article_cover_s/auto-mapping-folder/sites/2/2015/04/GTAV-Review.jpg",
+      "precio": 29.99,
+      "tags": ["accion", "mundo abierto", "multijugador", "historia"]
+    },
+    {
+      "id": 2,
+      "nombre": "Red Dead Redemption 2",
+      "descripcion": "Aventura épica en el viejo oeste con historia profunda y mundo abierto realista.",
+      "imagen": "https://woodmart.xtemos.com/games/wp-content/uploads/sites/14/2023/06/w-vgs-adventure-red-dead-redemption-2.jpg",
+      "precio": 59.99,
+      "tags": ["aventura", "mundo abierto", "historia"]
+    },
+    {
+      "id": 3,
+      "nombre": "Elden Ring",
+      "descripcion": "RPG de acción desafiante con combates intensos y jefes legendarios.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/aGhopp3MHppi7kooGE2Dtt8C.png",
+      "precio": 59.99,
+      "tags": ["rpg", "accion", "soulslike", "fantasia", "recommended"]
+    },
+    {
+      "id": 4,
+      "nombre": "Cyberpunk 2077",
+      "descripcion": "Aventura futurista en una ciudad abierta con mejoras cibernéticas.",
+      "imagen": "https://images.gog-statics.com/c75e674590b8947542c809924df30bbef2190341163dd08668e243c266be70c5_product_card_v2_mobile_slider_639.jpg",
+      "precio": 59.99,
+      "tags": ["rpg", "mundo abierto", "ciencia ficcion"]
+    },
+    {
+      "id": 5,
+      "nombre": "Call of Duty Modern Warfare III",
+      "descripcion": "Shooter en primera persona con campaña intensa y multijugador competitivo.",
+      "imagen": "https://assets.xboxservices.com/assets/71/b5/71b50f29-5799-4be1-97ef-d58d57c9fe37.jpg?n=CoD-Modern-Warfare-III_GLP-Page-Hero-0_1083x1222_02.jpg",
+      "precio": 69.99,
+      "tags": ["fps", "shooter", "multijugador", "competitivo", "new"]
+    },
+    {
+      "id": 6,
+      "nombre": "EA Sports FC 24",
+      "descripcion": "Simulador de fútbol con equipos oficiales y modos online competitivos.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202408/0817/31148e51a8883f275f48ac0c91583d688dd2ea35db2a8294.jpg",
+      "precio": 69.99,
+      "tags": ["deportes", "futbol", "multijugador", "competitivo"]
+    },
+    {
+      "id": 7,
+      "nombre": "Forza Horizon 5",
+      "descripcion": "Juego de carreras en mundo abierto con cientos de autos y eventos online.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202502/1900/631436cfbc1d64659c778e3783f29fafad6022145e0ffec8.jpg",
+      "precio": 59.99,
+      "tags": ["carreras", "mundo abierto", "autos", "multijugador"]
+    },
+    {
+      "id": 8,
+      "nombre": "God of War",
+      "descripcion": "Aventura de acción basada en la mitología nórdica con historia emotiva.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNjJiNTFhY2QtNzZkYi00MDNiLWEzNGEtNWE1NzBkOWIxNmY5XkEyXkFqcGc@._V1_.jpg",
+      "precio": 49.99,
+      "tags": ["accion", "aventura", "historia", "fantasia", "recommended"]
+    },
+    {
+      "id": 9,
+      "nombre": "Resident Evil 4 Remake",
+      "descripcion": "Survival horror moderno con acción intensa y ambiente aterrador.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202210/0712/BiS5QP6h4506JHyJlZlVzK9D.jpg",
+      "precio": 59.99,
+      "tags": ["terror", "survival horror", "accion"]
+    },
+    {
+      "id": 10,
+      "nombre": "Hogwarts Legacy",
+      "descripcion": "RPG en el universo mágico donde puedes explorar Hogwarts libremente.",
+      "imagen": "https://cdn1.epicgames.com/offer/e97659b501af4e3981d5430dad170911/EGS_HogwartsLegacy_AvalancheSoftware_S1_2560x1440-aa80981dd7c9b3f26b12606974a76dba_2560x1440-aa80981dd7c9b3f26b12606974a76dba",
+      "precio": 59.99,
+      "tags": ["rpg", "fantasia", "mundo abierto", "aventura"]
+    },
+    {
+      "id": 11,
+      "nombre": "Assassin's Creed Mirage",
+      "descripcion": "Acción y sigilo ambientado en el Medio Oriente histórico.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202208/1718/NFf86jgU4AeVYgJBEoEKBpxW.jpg",
+      "precio": 49.99,
+      "tags": ["accion", "sigilo", "aventura", "historia", "new"]
+    },
+    {
+      "id": 12,
+      "nombre": "Mortal Kombat 1",
+      "descripcion": "Juego de pelea con combates intensos y personajes icónicos.",
+      "imagen": "https://media.es.wired.com/photos/64664f32a566376ee967bc31/16:9/w_1920,c_limit/MortalKombat1.jpg",
+      "precio": 69.99,
+      "tags": ["peleas", "lucha", "multijugador", "competitivo", "new"]
+    },
+    {
+      "id": 13,
+      "nombre": "The Witcher 3",
+      "descripcion": "RPG de fantasía con historia profunda y mundo abierto detallado.",
+      "imagen": "https://cdn1.epicgames.com/offer/14ee004dadc142faaaece5a6270fb628/EGS_TheWitcher3WildHuntCompleteEdition_CDPROJEKTRED_S1_2560x1440-82eb5cf8f725e329d3194920c0c0b64f",
+      "precio": 39.99,
+      "tags": ["rpg", "fantasia", "mundo abierto", "historia", "recommended"]
+    },
+    {
+      "id": 14,
+      "nombre": "Dark Souls III",
+      "descripcion": "Acción RPG desafiante con combates estratégicos.",
+      "imagen": "https://image.api.playstation.com/cdn/UP0700/CUSA03388_00/Fg2otuFMeKjhnXG2QLUrwKqrMNvsC0n9.png",
+      "precio": 59.99,
+      "tags": ["rpg", "soulslike", "fantasia oscura", "desafio"]
+    },
+    {
+      "id": 15,
+      "nombre": "Battlefield 2042",
+      "descripcion": "Shooter multijugador masivo con mapas dinámicos.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202305/2515/15b67906c6f22a7f51bba05fdd817f1554d3c732ba542721.png",
+      "precio": 59.99,
+      "tags": ["fps", "shooter", "multijugador", "guerra"]
+    },
+    {
+      "id": 16,
+      "nombre": "Starfield",
+      "descripcion": "Exploración espacial RPG con múltiples planetas y misiones.",
+      "imagen": "https://xboxwire.thesourcemediaassets.com/sites/4/StarfieldShowcase_HERO-e36b02f4bced8d4fb72b.jpg",
+      "precio": 69.99,
+      "tags": ["rpg", "espacio", "ciencia ficcion", "mundo abierto", "new"]
+    },
+    {
+      "id": 17,
+      "nombre": "Sekiro Shadows Die Twice",
+      "descripcion": "Acción intensa con combates de espada precisos.",
+      "imagen": "https://www.mobygames.com/images/covers/l/547407-sekiro-shadows-die-twice-playstation-4-front-cover.jpg",
+      "precio": 59.99,
+      "tags": ["accion", "soulslike", "desafio", "aventura", "recommended"]
+    },
+    {
+      "id": 18,
+      "nombre": "Far Cry 6",
+      "descripcion": "Shooter en mundo abierto con revolución y acción explosiva.",
+      "imagen": "https://image.api.playstation.com/vulcan/img/rnd/202106/1514/fkPaEpz998Uu7QaofSj1VIhr.png",
+      "precio": 59.99,
+      "tags": ["fps", "mundo abierto", "accion", "aventura"]
+    },
+    {
+      "id": 19,
+      "nombre": "Monster Hunter World",
+      "descripcion": "Caza monstruos gigantes en entornos detallados.",
+      "imagen": "https://img.rtve.es/n/1674680?w=1600",
+      "precio": 39.99,
+      "tags": ["accion", "rpg", "aventura", "cooperativo"]
+    },
+    {
+      "id": 20,
+      "nombre": "Doom Eternal",
+      "descripcion": "Shooter frenético contra demonios con combate rápido.",
+      "imagen": "https://cms-assets.xboxservices.com/assets/9f/a1/9fa1b5f0-be24-4468-bf5a-90a63763d0d1.jpg?n=DOOM-Eternal_GLP-Page-Hero-0_1083x1222_01.jpg",
+      "precio": 39.99,
+      "tags": ["fps", "shooter", "accion", "un jugador", "new"]
+    },
+    {
+      "id": 21,
+      "nombre": "NBA 2K24",
+      "descripcion": "Simulación realista de baloncesto con modos online.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202306/2609/278035a1f94e3a07d4d0f74cd61b987af14a833b65a56cd2.png",
+      "precio": 69.99,
+      "tags": ["deportes", "baloncesto", "multijugador", "competitivo"]
+    },
+    {
+      "id": 22,
+      "nombre": "Gran Turismo 7",
+      "descripcion": "Simulador de conducción con autos realistas y circuitos oficiales.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202109/1321/3mjMyRiJaq8lw1EFWiTCUJRV.png",
+      "precio": 69.99,
+      "tags": ["carreras", "simulacion", "autos"]
+    },
+    {
+      "id": 23,
+      "nombre": "Dead Space Remake",
+      "descripcion": "Terror espacial con ambientación oscura y tensión constante.",
+      "imagen": "https://sm.ign.com/ign_es/review/d/dead-space/dead-space-review_q4z8.jpg",
+      "precio": 59.99,
+      "tags": ["terror", "survival horror", "ciencia ficcion"]
+    },
+    {
+      "id": 24,
+      "nombre": "Spider-Man Remastered",
+      "descripcion": "Aventura de superhéroes con combate dinámico y exploración urbana.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMmRiOTExM2EtMDgwZi00OGY0LWIxNDgtNTZiY2RjNDc5NGU2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "precio": 59.99,
+      "tags": ["accion", "mundo abierto", "aventura", "superheroes"],
+      "award": "Gio's Next Platinum Award"
+    },
+    {
+      "id": 25,
+      "nombre": "The Last of Us Part I",
+      "descripcion": "Historia emotiva de supervivencia en un mundo postapocalíptico.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202206/0720/0kRqUeSBIbQzz7cen3c989c6.jpg",
+      "precio": 69.99,
+      "tags": ["aventura", "historia", "survival horror", "accion"]
+    },
+    {
+      "id": 26,
+      "nombre": "Ghost of Tsushima",
+      "descripcion": "Acción samurái en mundo abierto ambientado en Japón feudal.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0222/niMUubpU9y1PxNvYmDfb8QFD.png",
+      "precio": 59.99,
+      "tags": ["accion", "mundo abierto", "historia", "aventura"]
+    },
+    {
+      "id": 27,
+      "nombre": "Alan Wake 2",
+      "descripcion": "Thriller psicológico con historia oscura y narrativa intensa.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202305/2420/c3daf3037feb797d9e71b81618e3b5ff3ff1f9609db5a4a2.png",
+      "precio": 59.99,
+      "tags": ["terror", "thriller", "historia", "survival horror", "new"]
+    },
+    {
+      "id": 28,
+      "nombre": "Diablo IV",
+      "descripcion": "RPG de acción con mazmorras oscuras y loot infinito.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202211/3017/Oo1B84A7BLCT157YFSxjtwG0.png",
+      "precio": 69.99,
+      "tags": ["rpg", "accion", "fantasia", "multijugador"]
+    },
+    {
+      "id": 29,
+      "nombre": "Baldur's Gate 3",
+      "descripcion": "RPG táctico con decisiones profundas y combates por turnos.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BN2I0N2Y3MWUtNjJiNy00NjRjLWE4ZTctOTQ2YWVhM2VhMTM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "precio": 59.99,
+      "tags": ["rpg", "estrategia", "turnos", "fantasia", "recommended", "new"]
+    },
+    {
+      "id": 30,
+      "nombre": "Tekken 8",
+      "descripcion": "Juego de pelea competitivo con gráficos modernos.",
+      "imagen": "https://gmedia.playstation.com/is/image/SIEPDC/tekken-8-keyart-01-en-15may23?$native$",
+      "precio": 69.99,
+      "tags": ["peleas", "lucha", "competitivo", "multijugador", "new"]
+    },
+    {
+      "id": 31,
+      "nombre": "Minecraft",
+      "descripcion": "Juego sandbox de construcción y supervivencia con exploración infinita.",
+      "imagen": "https://i.redd.it/q6e7og8akspd1.jpeg",
+      "precio": 29.99,
+      "tags": ["sandbox", "supervivencia", "construccion", "multijugador", "un jugador", "recommended"]
+    },
+    {
+      "id": 32,
+      "nombre": "Terraria",
+      "descripcion": "Aventura 2D de exploración, construcción y combate con jefes desafiantes.",
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZWJkZWNkZDgtOTMzMS00NjlhLTk5MTEtZWFiMTQ0MzE4MzAyXkEyXkFqcGc@._V1_.jpg",
+      "precio": 9.99,
+      "tags": ["sandbox", "supervivencia", "accion", "exploracion", "multijugador", "un jugador", "recommended"],
+      "award": "Saúl's Goated Pick"
+    },
+    {
+      "id": 33,
+      "nombre": "Geometry Dash",
+      "descripcion": "Plataformas rítmico desafiante basado en precisión y música electrónica.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG27F-2RM-1mjOiKUHX5Z4M3lUDg3W9V5etA&s",
+      "precio": 3.99,
+      "tags": ["plataformas", "ritmo", "desafio", "un jugador"],
+      "award": "Brittany's Addiction Award"
+    },
+    {
+      "id": 34,
+      "nombre": "Balatro",
+      "descripcion": "Roguelike de cartas inspirado en el póker con mecánicas estratégicas profundas.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202401/2218/d8c5d5861249cd80a300efb723450f56d0347e4345e2eb80.png",
+      "precio": 14.99,
+      "tags": ["roguelike", "cartas", "estrategia", "indie", "un jugador", "recommended", "new"],
+      "award": "Alex's Obsession Award"
+    },
+    {
+      "id": 35,
+      "nombre": "Bloons TD 6",
+      "descripcion": "Tower defense estratégico con gran variedad de mapas y torres.",
+      "imagen": "https://cdn1.epicgames.com/spt-assets/764b2d57552c436590f50318bd7587f9/bloons-td-6-offer-1jl6n.jpg",
+      "precio": 13.99,
+      "tags": ["estrategia", "tower defense", "multijugador", "un jugador"]
+    },
+    {
+      "id": 36,
+      "nombre": "Celeste",
+      "descripcion": "Plataformas desafiante con historia emotiva y controles precisos.",
+      "imagen": "https://image.api.playstation.com/cdn/UP2120/CUSA11302_00/qHx7zoFGNn6BUHUOk2jSfBck2Zzbjulw.png",
+      "precio": 19.99,
+      "tags": ["plataformas", "indie", "historia", "desafio", "un jugador", "recommended"]
+    },
+    {
+      "id": 37,
+      "nombre": "Cuphead",
+      "descripcion": "Plataformas y acción con estilo artístico clásico y dificultad elevada.",
+      "imagen": "https://4.bp.blogspot.com/-T8xCKivgJB0/XNHQErTqH-I/AAAAAAAACmk/2IApgyvsd-svQyMheG2mAAocXWSJ3Ol_ACLcBGAs/s1600/capa.jpg",
+      "precio": 19.99,
+      "tags": ["plataformas", "accion", "coop", "desafio", "un jugador"]
+    },
+    {
+      "id": 38,
+      "nombre": "It Takes Two",
+      "descripcion": "Aventura cooperativa obligatoria para dos jugadores con mecánicas variadas.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/7CRynuLSAb0vysSC4TmZy5e4.png",
+      "precio": 39.99,
+      "tags": ["aventura", "coop", "historia", "recommended"]
+    },
+    {
+      "id": 39,
+      "nombre": "Split Fiction",
+      "descripcion": "Aventura cooperativa narrativa centrada en decisiones compartidas.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202411/2918/90ad70c1ef581f93454184750cba9e0ca37bc7e30a4d1f55.png",
+      "precio": 39.99,
+      "tags": ["aventura", "coop", "historia", "new"]
+    },
+    {
+      "id": 40,
+      "nombre": "Lethal Company",
+      "descripcion": "Terror cooperativo donde exploras instalaciones abandonadas con tu equipo.",
+      "imagen": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/12/mixcollage-04-dec-2024-07-40-pm-5934.jpg",
+      "precio": 9.99,
+      "tags": ["terror", "coop", "multijugador", "indie"]
+    },
+    {
+      "id": 41,
+      "nombre": "Stardew Valley",
+      "descripcion": "Simulador de granja relajante con relaciones, minería y pesca.",
+      "imagen": "https://assets-prd.ignimgs.com/2021/12/20/stardewvalley-1640044262769.jpg?width=300&crop=1:1%2Csmart&dpr=2",
+      "precio": 14.99,
+      "tags": ["simulacion", "sandbox", "rpg", "relajante", "multijugador", "un jugador", "recommended"]
+    },
+    {
+      "id": 42,
+      "nombre": "Don't Starve Together",
+      "descripcion": "Supervivencia cooperativa con estilo artístico único y dificultad alta.",
+      "imagen": "https://tse2.mm.bing.net/th/id/OIP.KHu0TOU8t3SMlae9s0Y2DgAAAA?w=434&h=600&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "precio": 14.99,
+      "tags": ["supervivencia", "coop", "multijugador", "indie"]
+    },
+    {
+      "id": 43,
+      "nombre": "The Binding of Isaac: Rebirth",
+      "descripcion": "Roguelike de acción con mazmorras generadas proceduralmente.",
+      "imagen": "https://image.api.playstation.com/cdn/UP2103/CUSA00792_00/DxIB6twEsVkYanltsoOLP3ZVfBrHbhub.png",
+      "precio": 14.99,
+      "tags": ["roguelike", "accion", "indie", "desafio", "un jugador"],
+      "award": "JD's Grinding Award"
+    },
+    {
+      "id": 44,
+      "nombre": "Phasmophobia",
+      "descripcion": "Terror cooperativo de investigación paranormal con chat por voz integrado.",
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1214/9ec3be8acd540e2f84e7362cb492e8d53b93e8a7bea4cd5f.png",
+      "precio": 13.99,
+      "tags": ["terror", "coop", "multijugador"]
+    },
+    {
+      "id": 45,
+      "nombre": "Hades",
+      "descripcion": "Roguelike de acción rápida ambientado en la mitología griega.",
+      "imagen": "https://cdn1.epicgames.com/min/offer/2560x1440-2560x1440-5e710b93049cbd2125cf0261dcfbf943.jpg",
+      "precio": 24.99,
+      "tags": ["roguelike", "accion", "mitologia", "indie", "un jugador", "recommended"],
+      "award": "Fran's Pick"
+    },
+    {
+      "id": 46,
+      "nombre": "Hollow Knight",
+      "descripcion": "Metroidvania desafiante con mundo interconectado y gran atmósfera.",
+      "imagen": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Hollow_Knight_2026_cover_art.jpg/250px-Hollow_Knight_2026_cover_art.jpg",
+      "precio": 14.99,
+      "tags": ["metroidvania", "accion", "indie", "desafio", "un jugador", "recommended"]
+    },
+    {
+      "id": 47,
+      "nombre": "Portal 2",
+      "descripcion": "Juego de puzzles en primera persona con historia brillante y modo cooperativo.",
+      "imagen": "https://assets-prd.ignimgs.com/2021/12/08/portal2-1638924084230.jpg?crop=1%3A1%2Csmart&format=jpg&auto=webp&quality=80",
+      "precio": 19.99,
+      "tags": ["puzzle", "fps", "historia", "coop", "un jugador", "recommended"]
+    },
+    {
+      "id": 48,
+      "nombre": "Subnautica",
+      "descripcion": "Supervivencia submarina con exploración y construcción.",
+      "imagen": "https://www.mobygames.com/images/covers/l/738963-subnautica-playstation-5-front-cover.png",
+      "precio": 29.99,
+      "tags": ["supervivencia", "exploracion", "sandbox", "un jugador", "recommended"]
+    },
+    {
+      "id": 49,
+      "nombre": "Undertale",
+      "descripcion": "RPG indie con narrativa única y múltiples finales.",
+      "imagen": "https://cdn.mobygames.com/covers/3546341-undertale-nintendo-switch-front-cover.jpg",
+      "precio": 9.99,
+      "tags": ["rpg", "indie", "historia", "un jugador", "recommended"]
+    },
+    {
+      "id": 50,
+      "nombre": "Left 4 Dead 2",
+      "descripcion": "Shooter cooperativo contra hordas de zombies.",
+      "imagen": "https://images.alphacoders.com/673/67393.jpg",
+      "precio": 9.99,
+      "tags": ["fps", "coop", "multijugador", "zombies", "recommended"],
+      "award": "Ronald's Game"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.izq {
+    width: 50%;
+    background-color: #3d2914;
+    color: white;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.izq p {
+    max-width: 90%;
+}
+
+.izq h1 {
+    font-size: 40px;
+    color: #e67e22;
+}
+
+.precio {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.descripcion {
+    font-size: 26px;    
+    line-height: 1.6;
+    margin-top: 60px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #D74920;
+    color: white;
+    padding: 20px 32px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.der {
+    width: 50%;
+    background-color: #87ceeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.der img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 900px) {
+    main {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .izq,
+    .der {
+        width: 100%;
+    }
+
+    .izq {
+        padding: 30px;
+        order: 2;
+    }
+
+    .der {
+        order: 1;
+    }
+
+    .der img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .boton {
+        display: block;
+        text-align: center;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .descripcion {
+        margin-top: 25px;
+        font-size: 19px;
+    }
+}
