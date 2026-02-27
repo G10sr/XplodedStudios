@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xploded Studios - Inicio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="Stylesheet" href="./styles/estilo-inicio.css">     <!-- Estilos exclusivos de la pagina de inicio -->
+    <link rel="Stylesheet" href="./styles/estilo-juegos.css">     <!-- Estilos de los juegos -->
+    <link rel="Stylesheet" href="./styles/estilo-general.css">    <!-- Estilos del header, body y footer -->
+    <link rel="Stylesheet" href="./styles/estilo-pop-up.css">     <!-- Estilos del pop up de contacto -->
+    <script src="./javascript/inicio.js"></script>
+    <script src="./javascript/cart-popup.js"></script>   <!-- Estilos del carrito pop up -->
+    <script src="https://kit.fontawesome.com/552d6e05ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="header-background">
+            <span>
+                <a href="index.html">Inicio</a>
+                <a href="catalogo.html">Catalogo</a>
+                <a class="show-popup" onclick="">Contacto</a>
+
+                <!-- Crea un boton llamado ".show-popup". -->
+                <!-- ! - En CSS, las clases se llaman con un punto (.). -->
+                <!-- [Ej: html = "texto" | css = .texto] -->
+
+                <div class="popup-container"> +
+                    <div class="popup-box">
+                        <button class="close-btn">✖</button>
+                        <div class="grid-parent">
+                            <div class="title-section">
+                                <h1>Contactos</h1>
+                            </div>
+                            <div class="message-section">
+                                <h2>Mensaje</h2>
+                                <div class="message-container">
+                                    <textarea rows="5" cols="27" placeholder="Inserte su comentario"
+                                        id="comentario"></textarea>
+                                </div>
+                            </div>
+                            <div class="confirm-section">
+                                <label class="ios-checkbox red">
+                                    <input type="checkbox" />
+                                    <div class="checkbox-wrapper">
+                                        <div class="checkbox-bg"></div>
+                                        <svg fill="none" viewBox="0 0 24 24" class="checkbox-icon">
+                                            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="3"
+                                                stroke="currentColor" d="M4 12L10 18L20 6" class="check-path"></path>
+                                        </svg>
+                                    </div>
+                                </label>
+                                <p>Confirmacion del mensaje</p>
+                            </div>
+                            <div class="btn-section">
+                                <button class="send-btn">Enviar Mensaje</button>
+                            </div>
+                            <div class="name-section">
+                                <div class="name-container">
+                                    <input type="text" placeholder="Nombre..." id="nombre-texto"></input>
+                                </div>
+                            </div>
+                            <div class="lstname-section">
+                                <div class="lstname-container">
+                                    <input type="text" placeholder="Apellido..." id="apell-texto"></input>
+                                </div>
+                            </div>
+                            <div class="phone-section">
+                                <div class="phone-container">
+                                    <input type="tel" placeholder="#### - ####" id="tel-texto"></input>
+                                </div>
+                            </div>
+                            <div class="mail-section">
+                                <div class="mail-container">
+                                    <input type="email" placeholder="example@email.com" id="correo-texto"></input>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="./javascript/pop-up.js"></script> +
+                </div>
+            </span>
+            <span class="header-icons">
+                <img src="./m/img/Xploded Icon.png">
+                <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255);" onmouseover="cart()" onmouseout=" no_cart()" onclick="window.location.href='./html/buy-cart.html'">
+                    <div id="cart">
+                        <h3 id="defaulttext">No cart yet</h3>
+                    </div>
+                </i>      
+                <i class="fa-solid fa-gear" style="color: rgb(255, 255, 255);"></i>      
+                <i class="fa-solid fa-circle-user" style="color: rgb(255, 255, 255);"></i>
+            </span>
+        </div>
+    </header>
+    <main>
+        <section id="banner">
+            <img src="./m/img/Frame 11.png" id="banner-img" >
+        </section> 
+        <section>
+            <div class="section-header">
+
+                <h4>
+                    Nuevos Juegos Para Tí
+                </h4>
+
+                <div id="search-flex">
+                    <input type="text" id="search-input" placeholder="Search"></input>
+                    <i id="search-deco"class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+            </div>
+
+            <div class="gamelist-div">
+                <div class="column1-gamelist">
+                    <!-- Aqui van juegos desde el javascript -->
+                </div>
+                <div class="column2-gamelist">
+                    <!-- Aqui van juegos desde el javascript -->
+                </div>
+            </div>
+
+            <div class="gameawarded-container">
+                <button class="carousel-btn left" aria-label="Previous">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <div class="gameawarded-div">
+                    <div class="option1-gameawarded">
+                        <!-- Aqui va el juego desde el javascript -->
+                    </div>
+                    <div class="option2-gameawarded">
+                        <!-- Aqui va el juego desde el javascript -->
+                    </div>
+                    <div class="option3-gameawarded">
+                        <!-- Aqui va el juego desde el javascript -->
+                    </div>
+                </div>
+
+                <button class="carousel-btn right" aria-label="Next">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div class="section-header">
+                <h4>
+                    Juegos RPG
+                </h4>
+            </div>
+
+            <div class="gamelist-div">
+                <div class="column1-gamelist">
+                    <!-- Aqui van juegos desde el javascript -->
+                </div>
+                <div class="column2-gamelist">
+                    <!-- Aqui van juegos desde el javascript -->
+                </div>
+            </div>
+            
+            <div class="gameawarded-container">
+                <button class="carousel-btn left" aria-label="Previous">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <div class="gameawarded-div">
+                    <div class="option1-gameawarded">
+                        <!-- Aqui va el juego desde el javascript -->
+                    </div>
+                    <div class="option2-gameawarded">
+                        <!-- Aqui va el juego desde el javascript -->
+                    </div>
+                    <div class="option3-gameawarded">
+                        <!-- Aqui va el juego desde el javascript -->
+                    </div>
+                </div>
+
+                <button class="carousel-btn right" aria-label="Next">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+    <h3>xploded.Studios™</h3>
+    <ul>
+        <li>☏ - +506 6110 3229</li>
+        <li>✉ - saulsf1856@gmail.com</li>
+        <li>Términos de Servicio | Política de Privacidad | Contactos</li>
+    </ul>
+</footer>
+</body>
+</html>
